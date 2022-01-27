@@ -1,9 +1,9 @@
-$choice = ""
-$servicechoice = ""
-$boolchoice = ""
-$temp = ""
-
 while true; do
+    $choice = ""
+    $servicechoice = ""
+    $boolchoice = ""
+    $temp = ""
+    
     echo "  _________                                                                                    "
     echo " /   _____/ ______________  __ ___________    _____   ____   ____ _____     ____   ___________ "
     echo " \\_____  \\_/ __ \\_  __ \\  \\/ // __ \\_  __ \\  /     \\_/ __ \\ /    \\\\__   \\   / ___\\_/ __ \\_  __ \\"
