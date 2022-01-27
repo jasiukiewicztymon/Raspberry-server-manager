@@ -1,3 +1,3 @@
 #installing stable version
 sudo apt update
-sudo apt install apache2
+sudo apt -y install apache2
