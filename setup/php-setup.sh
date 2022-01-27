@@ -1,6 +1,6 @@
 #installing stable version
 sudo apt update
-sudo apt install php libapache2-mod-php
-sudo apt install php-cli
-sudo apt install php-cgi
-sudo apt install php-fpm php-mysql
+sudo apt -y install php libapache2-mod-php
+sudo apt -y install php-cli
+sudo apt -y install php-cgi
+sudo apt -y install php-fpm php-mysql
