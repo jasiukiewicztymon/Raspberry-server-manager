@@ -1,5 +1,9 @@
 # Server menager
-<i>(Tested and coded for Ubuntu 20.04 LTS)</i>
+Available linux version:
+
+- Ubuntu 20.04 LTS (all)
+
+More version are planed in the future...
 
 ## What is server menager
 
