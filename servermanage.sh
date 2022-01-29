@@ -11,7 +11,8 @@ while true; do
     echo ""
     echo " [1] - Setup one service"
     echo " [2] - Do a full installation"
-    echo " [3] - Exit"
+    echo " [3] - Manage raspberry pi"
+    echo " [4] - Exit"
     echo ""
     read choice
 
@@ -105,6 +106,41 @@ while true; do
             clear
         ;;
         "3")
+            clear
+            echo " [1] - Raspberry pi memory info"
+            echo " [2] - Raspberry pi version"
+            echo " [3] - Raspberry pi CPU info"
+            echo " [4] - Raspberry pi OS info"
+            echo " [5] - Exit"
+            echo "" 
+            read raspberrypichoice
+            echo ""
+
+            case $raspberrypichoice in 
+                "1")
+                    df -h
+                ;;
+                "2")
+                    cat /proc/device-tree/model
+                    echo ""
+                ;;
+                "3")
+                    cat /proc/cpuinfo
+                ;;
+                "4")
+                    cat /etc/os-release
+                ;;
+                "5")
+                    clear
+                    continue
+                ;;
+                *)
+                ;;
+            esac
+            read -r input
+            clear
+        ;;
+        "4")
             clear
             break
         ;;
