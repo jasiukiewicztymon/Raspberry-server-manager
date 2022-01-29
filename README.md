@@ -1,13 +1,13 @@
-# Server menager
+# Server manager
 Available linux version:
 
 - Ubuntu 20.04 LTS (all)
 
 More version are planed in the future...
 
-## What is server menager
+## What is server manager
 
-Server menager is a shell tool which have cool tested installation for Ubuntu...
+Server manager is a shell tool which have cool tested installation for Ubuntu...
 
 You can Setup 6 services like:
 
