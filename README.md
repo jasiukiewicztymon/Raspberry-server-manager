@@ -20,7 +20,7 @@ You can Setup 6 services like:
 
 <i>In the future comming other updates...</i>
 
-![image](https://user-images.githubusercontent.com/73474137/151500618-3f0f6296-a3d6-406b-a6d8-d58cc281741a.png)
+![image](https://user-images.githubusercontent.com/73474137/152635680-d67db401-e029-435c-820e-2e1eb8b370e2.png)
 
 ## Setup one service
 
@@ -33,6 +33,13 @@ For this installation you choose one of the six service and the choosen service 
 The code ask if you want to install a service and install it if you choose it...
 
 ![image](https://user-images.githubusercontent.com/73474137/151501458-b1f20fda-347a-4bdb-94ba-1ce8c8ba7b72.png)
+
+## Or take care of your raspberry pi
+
+Get information about your raspberry pi in two clicks...
+
+![image](https://user-images.githubusercontent.com/73474137/152635754-f5d01eb4-14cc-445e-81cc-8ee3ed2ae54f.png)
+
 
 ## License
 
