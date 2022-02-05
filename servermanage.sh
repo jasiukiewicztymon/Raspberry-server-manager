@@ -111,7 +111,8 @@ while true; do
             echo " [2] - Raspberry pi version"
             echo " [3] - Raspberry pi CPU info"
             echo " [4] - Raspberry pi OS info"
-            echo " [5] - Exit"
+            echo " [5] - Raspberry pi temperature"
+            echo " [6] - Exit"
             echo "" 
             read raspberrypichoice
             echo ""
@@ -131,6 +132,9 @@ while true; do
                     cat /etc/os-release
                 ;;
                 "5")
+                    vcgencmd measure_temp
+                ;;
+                "6")
                     clear
                     continue
                 ;;
