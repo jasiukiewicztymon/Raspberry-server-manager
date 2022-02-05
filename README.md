@@ -1,4 +1,4 @@
-# Server manager
+# Raspberry server manager
 Available linux version:
 
 - Ubuntu 20.04 LTS (all)
