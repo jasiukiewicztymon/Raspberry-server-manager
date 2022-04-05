@@ -32,7 +32,7 @@ For this installation you choose one of the six service and the choosen service 
 
 The code ask if you want to install a service and install it if you choose it...
 
-![image](https://user-images.githubusercontent.com/73474137/151501458-b1f20fda-347a-4bdb-94ba-1ce8c8ba7b72.png)
+![image](https://user-images.githubusercontent.com/73474137/161768193-21cbdb1d-7b19-4350-b996-a1ab21a9c906.png)
 
 ## Or take care of your raspberry pi
 
