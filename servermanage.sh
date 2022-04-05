@@ -67,37 +67,37 @@ while true; do
         ;;
         "2")
             clear
-            echo " Do you want setup Apache2 service [y/Y]: "
+            echo " Do you want setup Apache2 service [y/n]: "
             read boolchoice 
             if [ "$boolchoice" = "Y" ] || [ "$boolchoice" = "y" ]
             then
                 sh ./setup/apache-setup.sh
             fi
-            echo " Do you want setup Nginx service [y/Y]: "
+            echo " Do you want setup Nginx service [y/n]: "
             read boolchoice 
             if [ "$boolchoice" = "Y" ] || [ "$boolchoice" = "y" ]
             then
                 sh ./setup/nginx-setup.sh
             fi
-            echo " Do you want setup Mongo Database service [y/Y]: "
+            echo " Do you want setup Mongo Database service [y/n]: "
             read boolchoice 
             if [ "$boolchoice" = "Y" ] || [ "$boolchoice" = "y" ]
             then
                 sh ./setup/mongo-setup.sh
             fi
-            echo " Do you want setup SQL Database service [y/Y]: "
+            echo " Do you want setup SQL Database service [y/n]: "
             read boolchoice 
             if [ "$boolchoice" = "Y" ] || [ "$boolchoice" = "y" ]
             then
                 sh ./setup/sql-setup.sh
             fi
-            echo " Do you want setup Node JS service [y/Y]: "
+            echo " Do you want setup Node JS service [y/n]: "
             read boolchoice 
             if [ "$boolchoice" = "Y" ] || [ "$boolchoice" = "y" ]
             then
                 sh ./setup/node.js-setup.sh
             fi
-            echo " Do you want setup PHP service [y/Y]:"
+            echo " Do you want setup PHP service [y/n]:"
             read boolchoice 
             if [ "$boolchoice" = "Y" ] || [ "$boolchoice" = "y" ]
             then
